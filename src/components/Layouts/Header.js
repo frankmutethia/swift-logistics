@@ -18,11 +18,11 @@ export const Header = () => {
         </svg>
     </button>
     <div className="flex items-center">
-        <span className='bi bi-7-circle-fill'></span>
-        <span className='bi bi-7-circle-fill'></span>
-        <span className='bi bi-7-circle-fill'></span>
-        <span className='bi bi-7-circle-fill'></span>
-        <span className='bi bi-7-circle-fill'></span>
+        <span className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-gear'></span>
+        <span className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-search'></span>
+        <span className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-cart'></span>
+        <span className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-person-circle'></span>
+        <span className='cursor-pointer text-xl text-gray-700 dark:text-white mr-5 bi bi-7-circle-fill'></span>
     </div>
   </div>
 </nav>
